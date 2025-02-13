@@ -23,7 +23,7 @@
 - Verwenden Sie ein Tool wie z.B. GIMP, um Teile des Bildes zu löschen, die Sie ersetzen möchten, und ein zweites Bild mit dem vollständigen Bild.
 ```
   image_url_1 = "https://peterstroessler.com/src/images/hero/hero-image.png"
-  image_url_2 = "/content/drive/My Drive/jeff_heaton/hero-image-free.png"
+  image_url_2 = "/content/drive/My Drive/jeff_heaton/hero-image-free.png" # mit ausradierten, zu füllenden Bereichen
 
   # Load the images from URLs
   image_1 = load_image_from_url(image_url_1)  # laden von internetadresse
